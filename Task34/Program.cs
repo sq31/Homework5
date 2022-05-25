@@ -7,8 +7,6 @@
 
 void FillArray(int[] arrayCreate)
 {
-    //Console.Write("Введите количество элементов массива - ");
-    //int arrayLength = Convert.ToInt32(Console.ReadLine());
     for (int index = 0; index < arrayCreate.Length; index++)
     {
         arrayCreate[index] = new Random().Next(100, 999);
